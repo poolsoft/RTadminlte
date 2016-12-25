@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class RTdev\RTadminlte\RTadminlte | RTadminlte</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-RTdev.html">
+						RTdev<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-RTdev.RTadminlte.html">
+						RTadminlte					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-RTdev.RTadminlte.AdminLTE.html">AdminLTE</a></li>
+				<li><a href="class-RTdev.RTadminlte.Modal.html">Modal</a></li>
+				<li class="active"><a href="class-RTdev.RTadminlte.RTadminlte.html">RTadminlte</a></li>
+				<li><a href="class-RTdev.RTadminlte.UiElements.html">UiElements</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-RTdev.RTadminlte.RTadminlteLoad.html">RTadminlteLoad</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-RTdev.RTadminlte.html" title="Summary of RTdev\RTadminlte"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+				<li>
+					<a href="annotation-group-deprecated.html" title="List of elements with deprecated annotation">
+						<span>Deprecated</span>
+					</a>
+				</li>
+				<li>
+					<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+						<span>Todo</span>
+					</a>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="-API-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class RTadminlte</h1>
+
+
+	<div class="description">
+	<p>Provide methods to generate web layout with skin color, layout type, navigation menu and etc.</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-RTdev.RTadminlte.AdminLTE.html"><span>RTdev\RTadminlte\AdminLTE</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>RTdev\RTadminlte\RTadminlte</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-RTdev.html">RTdev</a>\<a href="namespace-RTdev.RTadminlte.html">RTadminlte</a><br>
+		
+
+				<b>Author:</b>
+				Roger Tiong RTdev<br>
+				<b>Version:</b>
+				0.1<br>
+			<b>Located at</b> <a href="source-class-RTdev.RTadminlte.RTadminlte.html#10-271" title="Go to source code">src/RTadminlte.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="config" id="_config">
+
+		<td class="attributes"><code>
+			final public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_config">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#46-117" title="Go to source code">config</a>( <span>array <var>$config</var></span> )</code>
+
+		<div class="description short">
+			<p>Configurate web layout<br>
+Array keys:<br>
+- title (Web title)<br>
+- head_add (Additional code to add between <head>)<br>
+- logo_mini (Mini web logo)<br>
+- logo_lg (Large web logo)<br>
+- content (Web contents add between content wrapper)<br>
+- htmlextra (Extra code add after content wrapper. Such as hidden modal.)<br>
+- version (Web version)<br>
+- copyright (Web copyright)<br>
+- script_src_add (Script source to add. <script src="">)<br>
+- scripts (Additional scripts to add. ** Must include script tag)<br>
+- header_menu_add (Additional code to add on web header)
+- header_user_before (Setup view before user header box drop down)<br>
+- header_user_after (Setup view after user header box drop down)<br>
+- header_user_footer (Setup footer for dropped down user header)<br>
+- navi_head (Additional code to add before navigation menu header)<br>
+- navi_header (Navigation menu header)<br>
+- navi_list (Navigation code - hard-code)<br>
+- url_error404 (URL to direct if the page is not found)<br></p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Configurate web layout<br>
+Array keys:<br>
+- title (Web title)<br>
+- head_add (Additional code to add between <head>)<br>
+- logo_mini (Mini web logo)<br>
+- logo_lg (Large web logo)<br>
+- content (Web contents add between content wrapper)<br>
+- htmlextra (Extra code add after content wrapper. Such as hidden modal.)<br>
+- version (Web version)<br>
+- copyright (Web copyright)<br>
+- script_src_add (Script source to add. <script src="">)<br>
+- scripts (Additional scripts to add. ** Must include script tag)<br>
+- header_menu_add (Additional code to add on web header)
+- header_user_before (Setup view before user header box drop down)<br>
+- header_user_after (Setup view after user header box drop down)<br>
+- header_user_footer (Setup footer for dropped down user header)<br>
+- navi_head (Additional code to add before navigation menu header)<br>
+- navi_header (Navigation menu header)<br>
+- navi_list (Navigation code - hard-code)<br>
+- url_error404 (URL to direct if the page is not found)<br></p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHtmlNaviList" id="_setHtmlNaviList">
+
+		<td class="attributes"><code>
+			final public 
+
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHtmlNaviList">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#119-176" title="Go to source code">setHtmlNaviList</a>( <span>array <var>$naviList</var></span> )</code>
+
+		<div class="description short">
+			<p>Configure web navigation dynamically<br>
+Array format:<br>
+- $naviList['title'] Title<br>
+- $naviList['icon'] Icon<br>
+- $naviList['url'] URL<br>
+- $naviList['submenu'] Child / Sub navigation menu list<br></p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Configure web navigation dynamically<br>
+Array format:<br>
+- $naviList['title'] Title<br>
+- $naviList['icon'] Icon<br>
+- $naviList['url'] URL<br>
+- $naviList['submenu'] Child / Sub navigation menu list<br></p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$naviList</var></dt>
+					<dd>Navigation array list</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					null
+				</div>
+
+
+				<h4>Note_1a</h4>
+				<div class="list">
+						This method currently only support maximum 1 child<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ui" id="_ui">
+
+		<td class="attributes"><code>
+			final public static
+
+			RTlib\RTadminlte\UiElements
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ui">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#178-186" title="Go to source code">ui</a>( )</code>
+
+		<div class="description short">
+			<p>Get UiElements object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get UiElements object</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					RTlib\RTadminlte\UiElements
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="modal" id="_modal">
+
+		<td class="attributes"><code>
+			final public static
+
+			RTlib\RTadminlte\Modal
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_modal">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#188-196" title="Go to source code">modal</a>( )</code>
+
+		<div class="description short">
+			<p>Get Modal object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get Modal object</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					RTlib\RTadminlte\Modal
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getConfigData" id="_getConfigData">
+
+		<td class="attributes"><code>
+			final public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getConfigData">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#198-206" title="Go to source code">getConfigData</a>( )</code>
+
+		<div class="description short">
+			<p>Get current configuration data</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current configuration data</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>Result
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="htmlLayout" id="_htmlLayout">
+
+		<td class="attributes"><code>
+			final public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_htmlLayout">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#208-220" title="Go to source code">htmlLayout</a>( <span>boolean <var>$minify</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			<p>Get web HTML layout</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get web HTML layout</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$minify</var></dt>
+					<dd>True = minify HTML code</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drawContentHead" id="_drawContentHead">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drawContentHead">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#222-241" title="Go to source code">drawContentHead</a>( <span>string <var>$title</var></span>, <span>string <var>$titleHtml</var></span>, <span>array <var>$breadcrumb</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>AdminLTE helper function to draw section content header</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>AdminLTE helper function to draw section content header</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd>Title String</dd>
+					<dt><var>$titleHtml</var></dt>
+					<dd>Title 2 HTML code</dd>
+					<dt><var>$breadcrumb</var></dt>
+					<dd>Pages add after title</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isUrl" id="_isUrl">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isUrl">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#243-252" title="Go to source code">isUrl</a>( <span>string <var>$v</var></span> )</code>
+
+		<div class="description short">
+			<p>Check is value a URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check is value a URL</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v</var></dt>
+					<dd>Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHtmlNaviRow" id="_setHtmlNaviRow">
+
+		<td class="attributes"><code>
+			final private 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHtmlNaviRow">#</a>
+		<code><a href="source-class-RTdev.RTadminlte.RTadminlte.html#254-269" title="Go to source code">setHtmlNaviRow</a>( <span>array <var>$navi</var></span> )</code>
+
+		<div class="description short">
+			<p>Generate navigation row</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generate navigation row</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$navi</var></dt>
+					<dd>Navigation array element</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-RTdev.RTadminlte.AdminLTE.html#methods">RTdev\RTadminlte\AdminLTE</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_format">format()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getLayoutType">getLayoutType()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getProgressBarSize">getProgressBarSize()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getPullType">getPullType()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getRawColor">getRawColor()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getSkin">getSkin()</a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#_getStatColor">getStatColor()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="configData" id="$configData">
+		<td class="attributes"><code>
+			private  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RTdev.RTadminlte.RTadminlte.html#18-44" title="Go to source code"><var>$configData</var></a>
+
+			<div class="description short">
+				<p>Configuration data</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Configuration data</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$configData" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'title'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'layout_type'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'head_add'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'skin'</span> =&gt; <span class="php-quote">'skin-blue'</span>,
+    <span class="php-quote">'logo_mini'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'logo_lg'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'content'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'htmlextra'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'version'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'copyright'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'script_src_add'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'scripts'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'header_menu_add'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'header_user_before'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'header_user_after'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'header_user_footer'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'navi_head'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'navi_header'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'navi_list'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'url_error404'</span> =&gt; <span class="php-quote">'./#'</span>
+)</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-RTdev.RTadminlte.AdminLTE.html#properties">RTdev\RTadminlte\AdminLTE</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$layout"><var>$layout</var></a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$progressBarSizes"><var>$progressBarSizes</var></a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$rawColors"><var>$rawColors</var></a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$skin"><var>$skin</var></a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$statColors"><var>$statColors</var></a>, 
+			<a href="class-RTdev.RTadminlte.AdminLTE.html#$synonymColors"><var>$synonymColors</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		RTadminlte API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

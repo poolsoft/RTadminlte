@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.php.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/php-project/1">
+            <name>RTadminlte</name>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>github</word>
+            <word>htmlextra</word>
+            <word>https</word>
+            <word>io</word>
+            <word>leftbtn</word>
+            <word>lg</word>
+            <word>navi</word>
+            <word>rightbtn</word>
+            <word>rogertiongdev</word>
+            <word>sidebar</word>
+            <word>sm</word>
+            <word>src</word>
+            <word>url</word>
+            <word>xs</word>
+            <word>xxs</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
