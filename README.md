@@ -1,5 +1,5 @@
 # RTadminlte
-![Version](https://img.shields.io/badge/version-0.1-blue.svg)
+![Version](https://img.shields.io/badge/version-0.2-blue.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://rogertiongdev.github.io/MIT-License/)
 
 **RTadminlte** is a project integrate with [AdminLTE](https://github.com/almasaeed2010/AdminLTE) with v2.3.8. It consists multiple PHP classes which help to create AdminLTE user-interface.
