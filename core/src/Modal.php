@@ -10,7 +10,7 @@ namespace RTdev\RTadminlte;
 /**
  * Provide methods to generate modal with available color and custom layout.
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 class Modal extends AdminLTE {

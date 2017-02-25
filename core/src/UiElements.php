@@ -10,7 +10,7 @@ namespace RTdev\RTadminlte;
 /**
  * Provide methods to generate AdminLTE UI elements.
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 class UiElements extends AdminLTE {

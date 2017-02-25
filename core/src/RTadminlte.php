@@ -10,7 +10,7 @@ namespace RTdev\RTadminlte;
 /**
  * Provide methods to generate web layout with skin color, layout type, navigation menu and etc.
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 class RTadminlte extends AdminLTE {

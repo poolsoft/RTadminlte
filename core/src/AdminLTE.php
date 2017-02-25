@@ -10,7 +10,7 @@ namespace RTdev\RTadminlte;
 /**
  * RTadminlte base class.
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 abstract class AdminLTE {

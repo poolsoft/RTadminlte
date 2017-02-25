@@ -10,7 +10,7 @@ namespace RTdev\RTadminlte;
 /**
  * RTadminlte classes loader
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 
