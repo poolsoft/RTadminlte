@@ -7,7 +7,7 @@
  * Testing RTadminlte on PHP 5.3.29<br>
  * All the method and array index explanation is available in documentation.
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 /**

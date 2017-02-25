@@ -7,7 +7,7 @@
  * Testing RTadminlte on PHP 5.3.29<br>
  * Included in RTadminlte-161230.php
  *
- * @version 0.1
+ * @version 0.2
  * @author Roger Tiong RTdev
  */
 $titleHTML = '<a href="<?php print HOME_PAGE; ?>"><i class="fa fa-dashboard"></i> Home</a>';
